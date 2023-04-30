@@ -40,4 +40,46 @@ body{
     font-size: 22px;
     font-weight: 100;
   }
-  
+  .div1{
+    background-color: pink;
+    border: 2px solid red; 
+    margin:32px; 
+    padding: 12px;
+  }
+  .div2{
+    background-color: blue;
+    border:2px solid yellow; 
+    margin: 0 0 48px 0; 
+  }
+  .div3{
+    background-color: brown;
+    margin-left: auto;
+  }
+  .container{
+    width: 50%; 
+    background-color: pink;
+    padding:8px;
+  }
+  .title{
+    background-color: blue;
+    padding: 8px;
+    font-size:16px; 
+    margin: 8px; 
+  }
+  .content-area{
+    background-color: blue;
+    padding:16px 8px 16px 8px;
+    margin:8px; 
+    
+  }
+  .footer{
+    background-color: blue;
+    padding:8px; 
+    text-align: center;
+    margin: 8px; 
+  }
+  .big-button{
+    text-align: center;
+    font-size:24px;
+    padding: 8px 24px 8px 24px; 
+  }
