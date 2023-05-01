@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 body{
+  
     font-family:Arial, Helvetica, sans-serif
   }
   
@@ -83,3 +85,90 @@ body{
     font-size:24px;
     padding: 8px 24px 8px 24px; 
   }
+  .flex-container{
+    background-color: blue;
+    display:flex; 
+    justify-content:center;
+    width: 50%;
+    margin-left: 25%;
+    height: 200px;
+    align-items: center;
+  }
+  .flex-item{
+ 
+    width:50%;
+    height: 50%;
+    background-color: brown;
+    align-items:center
+  }
+  .header{
+    display: flex;
+    background-color: peachpuff;
+    padding:8px; 
+    align-items:center;
+    justify-content: space-between;
+  }
+  .header ul{
+    display: flex;
+    margin:0; 
+    padding: 0; 
+    gap:10px;
+    list-style-type: none;
+  }
+  .header .logo{
+    background-color: white;
+    color:red; 
+    font-size: 38px;
+    font-weight: 900;
+    padding: 8px 32px; 
+
+  }
+  .header li{
+    margin:25px; 
+  }
+  .header-2{
+    background-color:aquamarine; 
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding:8px;
+
+  }
+  .left, .right{
+    display: flex;
+    padding: 8px;
+    gap:16px;
+    align-items: center;
+  }
+  .links{
+    display: flex;
+    gap:16px;
+    color:rebeccapurple;
+    align-items: center;
+  }
+  .header-2 .links a{
+    text-decoration: none;
+    color:rebeccapurple;
+  }
+.left > ul{
+  list-style-type: none;
+}
+.logo{
+  font-size:38px;
+  color:rebeccapurple;
+  font-weight: 900;
+  font-style: italic;
+}
+.right button{
+  border-radius: 18px;
+  background-color: rebeccapurple;
+  color:white;
+  border:none;
+  padding: 8px 24px; 
+}
+.circle{
+  border-radius: 50%;
+  background-color: rebeccapurple;
+  width:32px; 
+  height: 32px;
+}

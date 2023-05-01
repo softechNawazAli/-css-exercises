@@ -1,59 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>css Practice</title>
     <style rel="stylesheet">
-        .container .text {
-            background-color: yellow;
-            font-size: 24px;
-            text-align: center;
-            color:red;
-
-        }
+      .container .text {
+        background-color: yellow;
+        font-size: 24px;
+        text-align: center;
+        color: red;
+      }
     </style>
-    <link href="style.css" rel="stylesheet"> 
-</head>
-<body>
-    <h1> CSS Practice </h1>
-<div class="container">
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>CSS Practice</h1>
+    <div class="container">
+      <p class="text">this is style text inside the dive tool.</p>
+    </div>
     <p class="text">
-        this is style text inside the dive tool. 
+      this is unstyled text outside the container which is not descendant.
     </p>
-</div>
-<p class="text">this is unstyled text outside the container which is not descendant.</p>
-<p class="text">this is unstyled text outside the container which is not descendant.</p>
-<div class="container">
-    <p class="text"> this is another styled text . it is descendant. </p>
-</div><br>
-<!--  -->
-<p class="para">I'm just a paragraph with extra bold text!</p>
-    <p class="para small-para child">I'm a smaller paragraph, also with extra bold text!</p>
+    <p class="text">
+      this is unstyled text outside the container which is not descendant.
+    </p>
+    <div class="container">
+      <p class="text">this is another styled text . it is descendant.</p>
+    </div>
+    <br />
+    <!--  -->
+    <p class="para">I'm just a paragraph with extra bold text!</p>
+    <p class="para small-para child">
+      I'm a smaller paragraph, also with extra bold text!
+    </p>
 
     <button id="confirm-button " class="confirm">Confirm</button>
     <button id="cancel-button" class="button">Cancel</button>
 
     <div class="text">I'm a div with thin text!</div>
-    <div class="text">I'm a div with thin text and a child div!
+    <div class="text">
+      I'm a div with thin text and a child div!
       <div class="child">I'm a smaller child div with extra bold text.</div>
-    </div><br>
-    
-    <h1> Exercise margin and padding</h1>
+    </div>
+    <br />
 
-    <div class="div1"> this is first div </div>
-    <div class="div2"> this is second div</div>
+    <h1>Exercise margin and padding</h1>
+
+    <div class="div1">this is first div</div>
+    <div class="div2">this is second div</div>
     <div class="div3">this is the third div aligned to left</div>
 
-    <h1> 2nd Exercise margin and padding</h1>
+    <h1>2nd Exercise margin and padding</h1>
 
-<div class="container">
-    <div class="title"> this is the title of the box</div>
-    <div class="content-area"> this is the content area of the box that is managed and styled in the css section. paading and margins are setteled</div>
-    <div class="footer">this is the footer area of the model. <br>
-        <input type="button" value="Big Button" class="big-button">
+    <div class="container">
+      <div class="title">this is the title of the box</div>
+      <div class="content-area">
+        this is the content area of the box that is managed and styled in the
+        css section. paading and margins are setteled
+      </div>
+      <div class="footer">
+        this is the footer area of the model. <br />
+        <input type="button" value="Big Button" class="big-button" />
+      </div>
     </div>
-</div>
-</body>
+    <h1>Flex Practice</h1>
+    <div class="flex-container">
+      <div class="flex-item">flex item</div>
+    </div>
+    <h1>Basic Header in Flex</h1>
+    <div class="header">
+      <div class="right-link">
+        <ul>
+          <li class="right-group">ONE</li>
+          <li class="right-group">Two</li>
+          <li class="right-group">Three</li>
+        </ul>
+      </div>
+      <div class="logo">Logo</div>
+      <div>
+        <ul>
+          <li>Four</li>
+          <li>Five</li>
+          <li>Six</li>
+        </ul>
+      </div>
+    </div>
+    <h1>Flex exercise three header 2</h1>
+    <div class="header-2">
+        <div class="left">
+            <div class="logo"> LOGO</div>
+        
+        <ul class="links">
+            <li><a href="#">Link One</a></li>
+            <li><a href="#">Link Two</a></li>
+            <li><a href="#">Link Three</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <button class="notification">Notification</button>
+        <div class="circle"></div>
+    </div>
+    </div>
+  </body>
 </html>
